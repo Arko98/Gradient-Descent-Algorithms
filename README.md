@@ -51,6 +51,12 @@ Few things must be kept in mind:
 1. Continue the process until the cost function converges. That is, until the error curve becomes flat and doesn’t change.
 2. In addition, on each iteration, the step would be in the direction that gives the maximum change since it’s perpendicular to level curves at each step.
 
+# Features of Repository
+1) All variations of Gradient Descent Algorithms have been implemented from Scratch using Python only for better understanding
+2) Added real world examples of usage of each algorithm
+3) Continious monitoring of Loss and Accuracy for understanding rate and time taken by akgorithm to converge.
+4) Plots for error surface which helps in visualization of the algorithm per epoch or iteration.
+
 # References
 1) **The Basic understanding of Gradient Descent** Source: https://towardsdatascience.com/gradient-descent-algorithm-and-its-variants-10f652806a3
 2) **Basic Gradient Descent Algorithms** Source: https://arxiv.org/abs/1609.04747
