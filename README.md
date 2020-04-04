@@ -50,3 +50,10 @@ For the sake of illustration, let’s assume we don’t have bias. If the slope 
 Few things must be kept in mind:
 1. Continue the process until the cost function converges. That is, until the error curve becomes flat and doesn’t change.
 2. In addition, on each iteration, the step would be in the direction that gives the maximum change since it’s perpendicular to level curves at each step.
+
+# References
+1) **The Basic understanding of Gradient Descent** Source: https://towardsdatascience.com/gradient-descent-algorithm-and-its-variants-10f652806a3
+2) **Basic Gradient Descent Algorithms** Source: https://arxiv.org/abs/1609.04747
+3) **Gradient Descent with Decaying Learning Rate** Source: https://arxiv.org/abs/1212.5701
+4) **RMSProp Algorithm** Source: http://www.cs.toronto.edu/~tijmen/csc321/slides/lecture_slides_lec6.pdf
+5) **AdaGrad Algorithm** Source: http://www.jmlr.org/papers/volume12/duchi11a/duchi11a.pdf
