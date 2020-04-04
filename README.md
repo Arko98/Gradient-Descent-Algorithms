@@ -23,18 +23,30 @@ Let’s first see how gradient descent works on logistic regression before going
 If α is very small, it would take long time to converge and become computationally expensive.
 If α is large, it may fail to converge and overshoot the minimum.
 Therefore, plot the cost function against different values of α and pick the value of α that is right before the first value that didn’t converge so that we would have a very fast learning algorithm that converges. 
-# Insert Picture
+
+![](Images/grad1.png)
+
 The most commonly used rates are : 0.001, 0.003, 0.01, 0.03, 0.1, 0.3.
 3. Make sure to scale the data if it’s on a very different scales. If we don’t scale the data, the level curves (contours) would be narrower and taller which means it would take longer time to converge.
-# Insert Pictures
+
+![](Images/grad2.png)
+
 Scale the data to have μ = 0 and σ = 1. Below is the formula for scaling each example:
-# Insert Formula 1
+
+![](Images/formula1.png)
+
 4. On each iteration, take the partial derivative of the cost function J(w) w.r.t each parameter (gradient):
-# Insert Formula 2 3
+
+![](Images/formula23.png)
+
 The update equations are:
-# Insert Formula 4
+
+![](Images/formula4.png)
+
 For the sake of illustration, let’s assume we don’t have bias. If the slope of the current value of w > 0, this means that we are to the right of optimal w*. Therefore, the update will be negative, and will start getting close to the optimal values of w*. However, if it’s negative, the update will be positive and will increase the current values of w to converge to the optimal values of w*
-# Insert Picture
+
+![](Images/grad3.png)
+
 Few things must be kept in mind:
 1. Continue the process until the cost function converges. That is, until the error curve becomes flat and doesn’t change.
 2. In addition, on each iteration, the step would be in the direction that gives the maximum change since it’s perpendicular to level curves at each step.
