@@ -27,6 +27,7 @@ Therefore, plot the cost function against different values of α and pick the va
 ![](Images/grad1.png)
 
 The most commonly used rates are : 0.001, 0.003, 0.01, 0.03, 0.1, 0.3.
+
 3. Make sure to scale the data if it’s on a very different scales. If we don’t scale the data, the level curves (contours) would be narrower and taller which means it would take longer time to converge.
 
 ![](Images/grad2.png)
